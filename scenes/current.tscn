@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://csycswph4cw4j"]
+
+[ext_resource type="Script" uid="uid://drmhl18l4ph33" path="res://scenes/current_area.gd" id="1_lbs0b"]
+[ext_resource type="Texture2D" uid="uid://cpduh67ryy6wy" path="res://textures/current.png" id="2_dsalo"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7s3sk"]
+radius = 25.0
+height = 128.04733
+
+[node name="Current" type="Area2D"]
+script = ExtResource("1_lbs0b")
+distance = 50.0
+metadata/_custom_type_script = "uid://drmhl18l4ph33"
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(31, -3.999999)
+rotation = -0.2789874
+texture = ExtResource("2_dsalo")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(-39, 1)
+texture = ExtResource("2_dsalo")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(-1, 1)
+rotation = 0.13162641
+texture = ExtResource("2_dsalo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.5258789e-05, 3.0517578e-05)
+rotation = 1.5549427
+shape = SubResource("CapsuleShape2D_7s3sk")
