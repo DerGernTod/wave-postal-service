@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://gtfsfiy5p28x"]
+
+[ext_resource type="Texture2D" uid="uid://dvhdk4w25eyf5" path="res://icon.svg" id="1_g2els"]
+[ext_resource type="Script" uid="uid://dc01brsc8akkl" path="res://scenes/2DController.gd" id="2_qhqgy"]
+
+[node name="Player" type="Sprite2D"]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_g2els")
+script = ExtResource("2_qhqgy")
+acceleration = 2000.0
+wave_frequency = 1.0
