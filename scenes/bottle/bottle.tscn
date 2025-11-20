@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cpa6k8jxvfkeo"]
+[gd_scene load_steps=6 format=3 uid="uid://cpa6k8jxvfkeo"]
 
 [ext_resource type="Texture2D" uid="uid://tc7uu6qienso" path="res://scenes/bottle/bottle.png" id="1_bottle"]
 [ext_resource type="Script" uid="uid://d1wqr8y7boe1h" path="res://scenes/bottle/bottle.gd" id="1_qr18b"]
 [ext_resource type="PackedScene" uid="uid://q2qnjrctbmj5" path="res://scenes/progress/progress.tscn" id="3_6erc2"]
+[ext_resource type="PackedScene" uid="uid://b2jbt6d6ek1ou" path="res://scenes/minimap/minimap_token/minimap_token.tscn" id="4_jpk0u"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bottle"]
 radius = 11.045361
@@ -11,6 +12,7 @@ radius = 11.045361
 script = ExtResource("1_qr18b")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
 scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_bottle")
 
@@ -20,3 +22,7 @@ texture = ExtResource("1_bottle")
 shape = SubResource("CircleShape2D_bottle")
 
 [node name="Progress" parent="." instance=ExtResource("3_6erc2")]
+texture_filter = 1
+
+[node name="MinimapToken" parent="." instance=ExtResource("4_jpk0u")]
+color = Color(0.35318723, 0.8031162, 0.4125194, 1)

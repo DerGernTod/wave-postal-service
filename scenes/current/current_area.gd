@@ -25,11 +25,11 @@ func _process(delta: float) -> void:
 			sprite.position += -2 * distance * dir
 
 func _on_body_entered(body: Node2D) -> void:
-	if body.has_method("add_current"):
+	if body is Player:
 		body.add_current(self)
 
 func _on_body_exited(body: Node2D) -> void:
-	if body.has_method("remove_current"):
+	if body is Player:
 		body.remove_current(self)
 
 func get_direction() -> Vector2:

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://ccx53rql32bjl"]
 
-[ext_resource type="Texture2D" uid="uid://c45203ph7afji" path="res://textures/wind.png" id="1_qw4pj"]
-[ext_resource type="Script" uid="uid://b3iab7kiopje0" path="res://scenes/wind_indicator.gd" id="2_j5axh"]
+[ext_resource type="Texture2D" uid="uid://c45203ph7afji" path="res://scenes/wind_indicator/wind.png" id="1_qw4pj"]
+[ext_resource type="Script" uid="uid://b3iab7kiopje0" path="res://scenes/wind_indicator/wind_indicator.gd" id="2_j5axh"]
 
 [node name="WindIndicator" type="TextureRect"]
 anchors_preset = 8

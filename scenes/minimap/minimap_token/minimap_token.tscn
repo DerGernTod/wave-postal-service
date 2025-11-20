@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2jbt6d6ek1ou"]
+
+[ext_resource type="Script" uid="uid://7h5i68nssl4v" path="res://scenes/minimap/minimap_token/minimap_token.gd" id="1_d8pdo"]
+
+[node name="MinimapToken" type="Node2D"]
+script = ExtResource("1_d8pdo")

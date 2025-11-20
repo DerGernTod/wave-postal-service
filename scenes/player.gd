@@ -1,4 +1,5 @@
 extends CharacterBody2D
+class_name Player
 
 @export var acceleration: float = 500.0
 @export var drag: float = 5.0
@@ -9,6 +10,7 @@ var viewport_size: Vector2
 var time_elapsed: float = 0.0
 var debug_color: Color = Color.WHITE
 var active_currents: Array = []
+var held_bottles: Array[Bottle] = []
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -67,3 +69,14 @@ func add_current(current: CurrentArea) -> void:
 
 func remove_current(current: CurrentArea) -> void:
 	active_currents.erase(current)
+	
+func collect_bottle(bottle: Bottle) -> void:
+	held_bottles.append(bottle)
+	
+func drop_bottle() -> bool:
+	var bottle = held_bottles.pop_back()
+	if bottle != null:
+		bottle.queue_free()
+		return true
+	return false
+	
