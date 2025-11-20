@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cpa6k8jxvfkeo"]
 
-[ext_resource type="Texture2D" uid="uid://tc7uu6qienso" path="res://textures/bottle.png" id="1_bottle"]
-[ext_resource type="Script" uid="uid://d1wqr8y7boe1h" path="res://scenes/bottle.gd" id="1_qr18b"]
+[ext_resource type="Texture2D" uid="uid://tc7uu6qienso" path="res://scenes/bottle/bottle.png" id="1_bottle"]
+[ext_resource type="Script" uid="uid://d1wqr8y7boe1h" path="res://scenes/bottle/bottle.gd" id="1_qr18b"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bottle"]
 radius = 11.045361

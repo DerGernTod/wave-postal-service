@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tc7uu6qienso"
-path="res://.godot/imported/bottle.png-892e8d3feec88e1b0d5f44dee77bc72b.ctex"
+uid="uid://cpduh67ryy6wy"
+path="res://.godot/imported/current.png-e1c582793cf0aecd418d508cc9c70769.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/bottle.png"
-dest_files=["res://.godot/imported/bottle.png-892e8d3feec88e1b0d5f44dee77bc72b.ctex"]
+source_file="res://scenes/current/current.png"
+dest_files=["res://.godot/imported/current.png-e1c582793cf0aecd418d508cc9c70769.ctex"]
 
 [params]
 

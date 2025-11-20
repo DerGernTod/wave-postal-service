@@ -3,9 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://gtfsfiy5p28x" path="res://scenes/player.tscn" id="1_q4ytd"]
 [ext_resource type="TileSet" uid="uid://b5q6cvgg02i8d" path="res://textures/ocean_tileset.tres" id="2_6gjf6"]
 [ext_resource type="PackedScene" uid="uid://ccx53rql32bjl" path="res://scenes/wind_indicator.tscn" id="4_2uhf5"]
-[ext_resource type="PackedScene" uid="uid://csycswph4cw4j" path="res://scenes/current.tscn" id="4_ambff"]
+[ext_resource type="PackedScene" uid="uid://csycswph4cw4j" path="res://scenes/current/current.tscn" id="4_ambff"]
 [ext_resource type="PackedScene" path="res://scenes/minimap.tscn" id="5_minimap"]
-[ext_resource type="PackedScene" uid="uid://cpa6k8jxvfkeo" path="res://scenes/bottle.tscn" id="6_jiowo"]
+[ext_resource type="PackedScene" uid="uid://cpa6k8jxvfkeo" path="res://scenes/bottle/bottle.tscn" id="6_jiowo"]
 
 [node name="proto" type="Node2D"]
 
