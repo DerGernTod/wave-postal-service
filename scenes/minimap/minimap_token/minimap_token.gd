@@ -6,7 +6,7 @@ var minimap: Minimap
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	minimap = get_tree().get_root().get_node("proto/CanvasLayer/Minimap")
+	minimap = get_tree().get_root().get_node("Game/CanvasLayer/Minimap")
 	minimap.add_token(self)
 
 func _exit_tree() -> void:

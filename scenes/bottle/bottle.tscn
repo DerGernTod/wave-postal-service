@@ -2,8 +2,8 @@
 
 [ext_resource type="Texture2D" uid="uid://tc7uu6qienso" path="res://scenes/bottle/bottle.png" id="1_bottle"]
 [ext_resource type="Script" uid="uid://d1wqr8y7boe1h" path="res://scenes/bottle/bottle.gd" id="1_qr18b"]
-[ext_resource type="PackedScene" uid="uid://q2qnjrctbmj5" path="res://scenes/progress/progress.tscn" id="3_6erc2"]
-[ext_resource type="PackedScene" uid="uid://b2jbt6d6ek1ou" path="res://scenes/minimap/minimap_token/minimap_token.tscn" id="4_jpk0u"]
+[ext_resource type="PackedScene" uid="uid://q2qnjrctbmj5" path="res://scenes/progress/Progress.tscn" id="3_6erc2"]
+[ext_resource type="PackedScene" uid="uid://b2jbt6d6ek1ou" path="res://scenes/minimap/minimap_token/MinimapToken.tscn" id="4_jpk0u"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bottle"]
 radius = 11.045361

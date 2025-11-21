@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" load_steps=6 format=3 uid="uid://b5q6cvgg02i8d"]
 
-[ext_resource type="Texture2D" uid="uid://xr6f6fiqb4mh" path="res://textures/OceanNoTransparency_Tileset.png" id="1_2tr5t"]
+[ext_resource type="Texture2D" uid="uid://xr6f6fiqb4mh" path="res://textures/ocean_no_transparency_tileset.png" id="1_2tr5t"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_2tr5t"]
 tile_data = PackedInt32Array(0, 65536, 13, 65536, 262144, 13, 131072, 262144, 12, 196608, 65536, 13, 262144, 65536, 13, 1, 262144, 13, 65537, 131072, 14, 131073, 131072, 12, 196609, 262144, 12, 262145, 65536, 13, 2, 65536, 14, 65538, 65536, 13, 131074, 65536, 13, 196610, 131072, 12, 262146, 262144, 12, 3, 65536, 14, 65539, 0, 12, 131075, 0, 13, 196611, 0, 13, 262147, 196608, 12, 4, 196608, 13, 65540, 196608, 12, 131076, 65536, 13, 196612, 65536, 13, 262148, 65536, 13)

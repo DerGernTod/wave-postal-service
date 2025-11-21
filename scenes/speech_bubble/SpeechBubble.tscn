@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://brvl3ha2go40h" path="res://scenes/speech_bubble/speech_bubble.png" id="1_u1dx8"]
 [ext_resource type="Texture2D" uid="uid://tc7uu6qienso" path="res://scenes/bottle/bottle.png" id="2_j2lwm"]
 [ext_resource type="Script" uid="uid://cs87sqe20im4k" path="res://scenes/speech_bubble/speech_bubble.gd" id="2_rybbg"]
-[ext_resource type="PackedScene" uid="uid://b2jbt6d6ek1ou" path="res://scenes/minimap/minimap_token/minimap_token.tscn" id="4_xbxgb"]
+[ext_resource type="PackedScene" uid="uid://b2jbt6d6ek1ou" path="res://scenes/minimap/minimap_token/MinimapToken.tscn" id="4_xbxgb"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xbxgb"]
 radius = 32.24903
